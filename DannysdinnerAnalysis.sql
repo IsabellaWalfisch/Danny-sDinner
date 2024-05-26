@@ -68,7 +68,7 @@ FROM RankedProductPurchased
 WHERE row_num = 1
 ORDER BY customer_id;
 
---CASE STUDY QUESTION N°8--
+--CASE STUDY QUESTION N°7--
 SELECT 
     s.customer_id,
     COUNT(*) AS total_items_purchased,
@@ -84,7 +84,7 @@ GROUP BY
     s.customer_id;
 
 
---CASE STUDY QUESTION N°9--
+--CASE STUDY QUESTION N°8--
 SELECT 
 	s.customer_id,
 	sum(
